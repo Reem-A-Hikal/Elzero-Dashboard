@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <!-- Satrt Sidebar -->
+      <aside class="p-relative p-20 bg-white">
+        <h3 class="p-relative txt-c c-fifth">Elzero</h3>
+        <ul>
+          <li>
+            <a
+              class="c-black d-flex align-center fs-14 p-10 rad-6"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-gantt fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="c-black d-flex align-center fs-14 p-10 rad-6"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active c-black d-flex align-center fs-14 p-10 rad-6"
+              href="profile.html"
+            >
+              <i class="fa-solid fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="c-black d-flex align-center fs-14 p-10 rad-6"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-code fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="c-black d-flex align-center fs-14 p-10 rad-6"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="c-black d-flex align-center fs-14 p-10 rad-6"
+              href="friends.html"
+            >
+              <i class="fa-solid fa-user-group fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="c-black d-flex align-center fs-14 p-10 rad-6"
+              href="files.html"
+            >
+              <i class="fa-solid fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="c-black d-flex align-center fs-14 p-10 rad-6"
+              href="plans.html"
+            >
+              <i class="fa-solid fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+      <div class="content w-full">
+        <!-- Start Head -->
+        <div class="head d-flex bg-white between-flex p-15">
+          <div class="search p-relative \">
+            <input
+              class="p-10"
+              type="search"
+              name="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg c-forth"></i>
+            </span>
+            <img src="images/Avatar.jpg" alt="Profile Picture" />
+          </div>
+        </div>
+        <!-- End Head -->
+        <h1 class="p-relative c-fifth">Profile</h1>
+        <div class="profile-page m-20">
+          <!-- Start Main Information  -->
+          <div class="main-info bg-white rad-6 d-flex align-center">
+            <div class="avatar-box d-flex p-20">
+              <img src="images/Avatar.jpg" alt="Profile Picture" />
+              <h3 class="c-fifth mb-10">Reem Atef</h3>
+              <p class="c-text mb-10">Level 20</p>
+              <div class="prog-level rad-6 p-relative bg-widget">
+                <span style="width: 70%"></span>
+              </div>
+              <div class="rating mb-10 mt-10">
+                <i class="fa-solid fa-star c-gold fs-13"></i>
+                <i class="fa-solid fa-star c-gold fs-13"></i>
+                <i class="fa-solid fa-star c-gold fs-13"></i>
+                <i class="fa-solid fa-star c-gold fs-13"></i>
+                <i class="fa-solid fa-star c-gold fs-13"></i>
+              </div>
+              <p class="c-text fs-13">550 Rating</p>
+            </div>
+            <div class="info">
+              <div class="box p-20 d-flex align-center">
+                <h4 class="w-full fs-14">General Information</h4>
+                <p><span>Full Name:</span> Reem Atef</p>
+                <p><span>Gender:</span> Female</p>
+                <p><span>Country: </span> Egypt</p>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+              <div class="box p-20 d-flex align-center">
+                <h4 class="w-full fs-14">Personal Information</h4>
+                <p><span>Email:</span> reem@gmail.com</p>
+                <p><span>Phone:</span> 01012456789</p>
+                <p><span>Date Of Birth:</span> 19/4/1999</p>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+              <div class="box p-20 d-flex align-center">
+                <h4 class="w-full fs-14">Job Information</h4>
+                <p><span>Title:</span> Front-End Developer</p>
+                <p><span>Programming Language:</span> JS</p>
+                <p><span>Years Of Experience:</span> 1+</p>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+              <div class="box p-20 d-flex align-center">
+                <h4 class="w-full fs-14">Billing Information</h4>
+                <p><span>Payment Method: </span>Paypal</p>
+                <p><span>Email:</span> email@website.com</p>
+                <p><span>Subscription:</span> Monthly</p>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- End Main Information  -->
+          <div class="other-info d-flex gap-20">
+            <!-- Start Skills -->
+            <div class="skills bg-white rad-6 mt-20 p-20">
+              <h2 class="mb-10 c-fifth">My Skills</h2>
+              <p class="c-text mb-20 fs-15">Complete Skills List</p>
+              <ul>
+                <li>
+                  <span>HTML</span>
+                  <span>Pugjs</span>
+                  <span>HAML</span>
+                </li>
+                <li>
+                  <span>css</span>
+                  <span>SASS</span>
+                  <span>Stylus</span>
+                </li>
+                <li>
+                  <span>JavaScript</span>
+                  <span>TypeScript</span>
+                </li>
+                <li>
+                  <span>Vuejs</span>
+                  <span>Reactjs</span>
+                </li>
+                <li>
+                  <span>Jest</span>
+                  <span>Jasmine</span>
+                </li>
+                <li>
+                  <span>PHP</span>
+                  <span>Laravel</span>
+                </li>
+                <li>
+                  <span>Python</span>
+                  <span>Django</span>
+                </li>
+              </ul>
+            </div>
+            <!-- End Skills -->
+            <!-- Start Latest Activities -->
+            <div class="latest-Activities bg-white rad-6 mt-20 p-20">
+              <h2 class="mb-10 c-fifth">Latest Activities</h2>
+              <p class="c-text fs-15 mb-20">
+                Latest Activities Done By The User
+              </p>
+              <div class="activity d-flex align-center pb-20 mb-20">
+                <img src="images/activity-01.png" alt="">
+                <div class="info">
+                  <span class="d-block mb-10 c-fifth">Store</span>
+                  <p class="c-text fs-15">Bought The Mastering Python Course</p>
+                </div>
+                <div class="time">
+                  <span class="d-block mb-10">18:10</span>
+                  <span class="c-text">Yesterday</span>
+                </div>
+              </div>
+              <div class="activity d-flex align-center pb-20 mb-20">
+                <img src="images/activity-02.png" alt="">
+                <div class="info">
+                  <span class="d-block mb-10 c-fifth">Academy</span>
+                  <p class="c-text fs-15">Got The PHP Certificate</p>
+                </div>
+                <div class="time">
+                  <span class="d-block mb-10">16:05</span>
+                  <span class="c-text">Yesterday</span>
+                </div>
+              </div>
+              <div class="activity d-flex align-center pb-20 mb-20">
+                <img src="images/activity-03.png" alt="">
+                <div class="info">
+                  <span class="d-block mb-10 c-fifth">Badges</span>
+                  <p class="c-text fs-15">Unlocked The 10 Skills Badge</p>
+                </div>
+                <div class="time">
+                  <span class="d-block mb-10">18:05</span>
+                  <span class="c-text">Yesterday</span>
+                </div>
+              </div>
+              <div class="activity d-flex align-center">
+                <img src="images/activity-04.png" alt="">
+                <div class="info">
+                  <span class="d-block mb-10 c-fifth">Store</span>
+                  <p class="c-text fs-15">Bought The Typescript Course</p>
+                </div>
+                <div class="time">
+                  <span class="d-block mb-10">12:05</span>
+                  <span class="c-text">Yesterday</span>
+                </div>
+              </div>
+            </div>
+            <!-- End Latest Activities -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
