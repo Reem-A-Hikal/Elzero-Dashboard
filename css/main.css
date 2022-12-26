@@ -1269,6 +1269,13 @@ ul {
   font-size: 45px;
   opacity: 0.1;
 }
+@media (max-width: 370px) {
+  .friends-page .friend .date div {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+}
 .friends-page .friend .remove {
   background-color: #d80b5e;
 }
